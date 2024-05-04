@@ -1,0 +1,66 @@
+.FotterTop{
+    width: 100%;
+    height: 355px;
+    background-color: rgb(203, 229, 229);
+display: flex;
+border-radius: 15px;
+}
+.FotterSearch{
+    width: 50%;
+    height: 250px;
+    h1{
+        margin-left: 30px;
+        text-align: left;
+        margin-top: 40px;
+    }
+    h4{
+         margin-left: 30px;
+        text-align: left;
+        margin-top: 40px;
+        opacity: 0.5;
+    }
+}
+.Person{
+    width: 50%;
+    height: 100%;
+    img{
+        margin-top: 50px;
+        width: 500px;
+        height: 300px;
+    }
+}
+.input{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    margin-top: 40px;
+        margin-left: 30px;
+background-color: #fff;
+        border-radius: 15px;  
+
+    input{
+       width: 250px;
+    height: 50px; 
+    border: solid 1px #fff; 
+        border-radius: 10px;  
+    }
+    button{
+        background-color:#3BB77E ;
+          width: 150px;
+    height: 50px;
+        border-radius: 15px;  
+        border: none;   
+    }
+}
+.footTop{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    img{
+        margin-left: 10px;
+        width: 230px;
+        height: 90px;
+    }
+}

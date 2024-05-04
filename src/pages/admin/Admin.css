@@ -1,0 +1,118 @@
+.admin{
+    width: 100%;
+    grid-template-columns: 300px 1fr;
+}
+.admin_Nav{
+    width: 100%;
+    border: solid 1px black;
+}
+.admin_top{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.admin1{
+    width: 400px;
+    height: 230px;
+    margin-left: 20px;
+    margin-top: 50px;
+    h1{
+        margin-left: 10px;
+    }
+    h5{
+        opacity: 0.5;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+.admin2{
+     width: 400px;
+    height: 230px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
+    h5{
+        opacity: 0.5;
+    }
+}
+.admin_title{
+    text-align: left;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+.map{
+    width: 100%;
+    img{
+        width: 1230px;
+    }
+}
+.admin_category{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.admin_btn{
+    h2{
+        color:#3BB77E ;
+    }
+    h5{
+       opacity: 0.5; 
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: #3BB77E;
+        border-radius: 10px;
+        border: solid 1px rgb(198, 198, 198);
+    }
+    button:hover{
+        background-color: aliceblue;
+    }
+}
+.admin_bottom{
+    width: 100%;
+}
+.left_bottom{
+    width: 100%;
+    h2{
+        margin-left: 20px;
+        color: rgb(10, 3, 35);
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+.input_left{
+    display: flex;
+    gap: 20px;
+    input{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 400px;
+        height: 40px;
+    }
+}
+.big_input{
+    width: 50%;
+    height: auto;
+    input{
+        width: 600px;
+        height: 300px;
+         margin-top: 20px;
+        margin-left: 20px;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+         margin-top: 20px;
+        margin-left: 20px;
+        color: aliceblue;
+        background-color: rgb(12, 8, 53);
+    }
+}
+
+
+

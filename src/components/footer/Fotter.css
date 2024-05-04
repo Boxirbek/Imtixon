@@ -1,0 +1,112 @@
+.Fotter{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.fotterMiddle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    border-bottom: solid 1px black;
+}
+.fot1{
+    width: 17%;
+    height: auto;
+    display: block;
+   margin-left: 20px;
+   margin-top: 20px;
+   h4{
+    font-family: Lato;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+   }
+   h5{
+    font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+svg{
+    color:#3BB77E ;
+}
+   }
+}
+.fot2{
+    width: 17%;
+    height: auto;
+    display: block;
+   margin-left: 20px;
+   margin-top: 20px;
+    h4{
+        font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+        color: #253D4E;
+
+    }
+    p{
+        font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+opacity: 0.3;
+    }
+    h2{
+        color: #253D4E;
+        margin-top: 15px;
+    }
+}
+.fotAPP{
+     width: 17%;
+    height: auto;
+    display: block;
+   margin-left: 20px;
+   margin-top: 20px; 
+    h2{
+        color: #253D4E;
+        margin-top: 15px;
+    }
+      h4{
+        font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+        color: #253D4E;
+}
+img{
+    width: 100px;
+    
+}
+}
+.footterBottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+    justify-content: center;
+    h4{
+        opacity: 0.9;
+        svg{
+            color: #20724c;
+        }
+    }
+}
+.cal_centr{
+    h1{
+        color: #3BB77E;
+    }
+    svg{
+        color: rgb(62, 62, 62);
+    }
+}

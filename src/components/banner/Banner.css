@@ -1,0 +1,51 @@
+.banner__swiper video,
+.banner__swiper img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.banner__item{
+    background-image:url(../../assets/img/karVeget.jpg);
+    padding: 140px 0;
+    width: 100%;
+    border-radius: 30px;
+    display: block;
+    
+    h1{
+       margin-left: 10%;
+       font-size: 40px;
+        color: #fff;
+    }
+    h4{
+        margin-left: 10%;
+        color: rgb(236, 234, 234); 
+    }
+}
+.carusel_button{
+        margin-left: 10%;
+margin-top: 20px;
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+        border-radius: 15px;
+
+    input{
+     border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;   
+border: none;
+width: 300px;
+    }
+    button{
+        width: 100px;
+        height: 100%;
+        border-radius: 15px;
+  border:none;
+  background-color:#3BB77E ;
+  
+    }
+
+    button:hover {
+  background-color: #ffffff; /* hover holatida fon rangi o'zgaradi */
+}
+}

@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    height: 70px;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__link{
+    font-family: Quicksand;
+font-size: 16px;
+font-weight: 700;
+line-height: 70px;
+text-align: left;
+svg{
+    width: 20px;
+    height: 20px;
+    color: #3BB77E;
+}
+
+}
+.navbar__link.active{
+    color: #3BB77E;
+    text-decoration: underline;
+}
+.select{
+   width: 220px;
+   height: 50px; 
+   justify-content: center;
+   align-items: center;
+  background-color: #3BB77E;
+  display: flex;
+    border: solid 1px #fff;
+border-radius: 10px;
+  
+  option{
+    background-color: #3BB77E;
+  }
+  svg{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+}
+.Selectr{
+    background-color: #3BB77E;
+    height: 40px;
+    border: none;
+    color: #fff;
+  }
+  .call_centr{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    svg{
+        width: 30px;
+        height: 30px;
+        color: #3BB77E;
+    }
+  }
+  .tell_number{
+    display: block;
+    h2{
+        font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #3BB77E;
+
+    }
+    h6{
+        font-family: Lato;
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0.8999999761581421px;
+text-align: left;
+opacity: 0.5;
+
+    }
+    
+  }
+  .navbarTop{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .inputNav{
+    width: 510px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+border-radius: 10px;
+    border: solid 1px #BCE3C9;
+    margin-left: 30px;
+input{
+    /* border: none; */
+    width: 270px;
+height: 30px;
+    border: solid 1px #ffffff;
+
+}
+  }
+  .Selectr_nav{
+      width: 200px;
+height: 30px;
+margin-left: 10px;
+    border: solid 1px #ffffff;
+
+  }
+  .navRight{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    h4{
+      opacity: 0.6;
+      svg{
+        opacity: none;
+      }
+    }
+    button{
+      width: 130px;
+      height: 30px;
+      border: solid 1px rgb(169, 206, 197);
+      border-radius: 10px;
+      background-color: #fff;
+    }
+     button:hover {
+  background-color: #b6e8cb; /* hover holatida fon rangi o'zgaradi */
+}
+  }
